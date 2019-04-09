@@ -50,7 +50,7 @@ function newElement() {
 
     function removeRaw() {
 
-        var r1 = document.getElementsByTagName("tr");
+        var r1 = document.getElementsByTagName("td");
         for (var i = r1.length - 1; i >= 0; --i) {
             r1[i].remove();
         }
